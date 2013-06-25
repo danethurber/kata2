@@ -3,11 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "foreman start"
+    "start": "foreman start",
+    "test": "mocha test/server/*"
   },
   "dependencies": {
     "express": "3.2.5",
     "jade": "*",
     "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
   }
 }
